@@ -2,11 +2,7 @@
   <header>
     <div class="bg-[#08222F] py-3">
       <div class="max-w-7xl mx-auto px-4 flex items-center justify-between">
-        <img
-          src="../assets/image-removebg-preview.png"
-          alt="Logo"
-          class="h-25 ml-10"
-        />
+        <img src="../assets/logo.jpeg" alt="Logo" class="h-25 ml-10" />
 
         <div class="relative md:hidden">
           <input
