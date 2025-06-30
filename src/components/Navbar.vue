@@ -2,7 +2,7 @@
   <header>
     <div class="bg-[#08222F] py-3">
       <div class="max-w-7xl mx-auto px-4 flex items-center justify-between">
-        <img src="../assets/logo.jpeg" alt="Logo" class="h-25 ml-10" />
+        <img src="../assets/logo.jpeg" alt="Logo" class="h-15 ml-10" />
 
         <div class="relative md:hidden">
           <input
@@ -27,25 +27,34 @@
           </button>
 
           <button
+            @click="navigateAndClose('/send-article')"
             class="hidden md:flex bg-green-600 text-white text-sm font-semibold px-4 py-2 rounded-full items-center gap-1 hover:bg-green-700"
           >
             <span>✏️</span> KIRIM ARTIKEL
           </button>
 
           <div class="hidden md:flex gap-2">
-            <div class="w-6 h-6 rounded-full bg-pink-500"></div>
             <div
-              class="w-6 h-6 rounded-full bg-black flex items-center justify-center text-white text-xs"
+              href="https://wa.me/6285881486316"
+              class="w-6 h-6 rounded-full bg-green-500 flex items-center justify-center"
             >
-              X
+              <img :src="whatsappIcon" alt="WhatsApp" class="w-3.5 h-3.5" />
             </div>
-            <div class="w-6 h-6 rounded-full bg-blue-600"></div>
             <div
-              class="w-6 h-6 rounded-full bg-black flex items-center justify-center text-white text-xs"
+              class="w-6 h-6 rounded-full bg-blue-600 flex items-center justify-center"
             >
-              🎵
+              <img :src="facebookIcon" alt="Facebook" class="w-3.5 h-3.5" />
             </div>
-            <div class="w-6 h-6 rounded-full bg-red-600"></div>
+            <div
+              class="w-6 h-6 rounded-full bg-pink-500 flex items-center justify-center"
+            >
+              <img :src="instagramIcon" alt="Instagram" class="w-3.5 h-3.5" />
+            </div>
+            <div
+              class="w-6 h-6 rounded-full bg-red-600 flex items-center justify-center"
+            >
+              <img :src="youtubeIcon" alt="YouTube" class="w-3.5 h-3.5" />
+            </div>
           </div>
         </div>
       </div>
@@ -182,6 +191,10 @@
 <script setup>
 import { ref, computed } from "vue";
 import { useRoute, useRouter } from "vue-router"; // Import useRoute dan useRouter
+import whatsappIcon from "../assets/WhatsApp.svg.png";
+import facebookIcon from "../assets/facebook-revisi.jpeg";
+import youtubeIcon from "../assets/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.webp";
+import instagramIcon from "../assets/Instagram_icon_revisi.png";
 
 const isMobileMenuOpen = ref(false);
 const toggleMobileMenu = () => {

@@ -2,29 +2,21 @@
   <div class="max-w-7xl mx-auto px-4 py-8 grid md:grid-cols-3 gap-6">
     <div class="md:col-span-2">
       <h1 class="text-2xl font-bold text-gray-800 mb-2">Artikel</h1>
-
-      <p class="text-sm text-gray-600 leading-relaxed mb-6">
-        Kolom Artikel adalah ruang untuk menyajikan tulisan-tulisan hukum yang
-        bersifat lebih akademik, analitis, dan berbasis referensi, ditujukan
-        bagi pembaca yang ingin mendalami isu-isu hukum secara sistematis dan
-        mendalam.
+      <p class="text-gray-600 mb-6">
+        Kolom Esai : Tentang Hukum dalam Perspektif yang Lebih Dekat
       </p>
       <div>
-        <p class="text-sm text-gray-600 leading-relaxed mb-2">
-          Tulisan dalam kolom ini menampilkan:
-        </p>
-        <ul
-          class="list-disc list-inside space-y-1 text-sm text-gray-600 leading-relaxed mb-6"
-        >
+        <p class="text-gray-600 mb-2">Tulisan dalam kolom ini menampilkan:</p>
+        <ul class="list-disc list-inside space-y-1 text-gray-600 mb-6">
           <li>Argumentasi hukum yang terstruktur;</li>
-          <li>Pandangan kritis terhadap fenomena hukum di sekitar;</li>
+          <li>Pandangan kritis terhadap fenomena hukum di sekitar;;</li>
           <li>Cerita sehari-hari yang menyentuh aspek keadilan;</li>
           <li>Gagasan atau refleksi dari pengetahuan hukum yang dimiliki;</li>
           <li>Perbandingan hukum dengan nilai sosial, budaya, atau agama</li>
         </ul>
       </div>
 
-      <p class="text-sm text-gray-600 leading-relaxed mb-6">
+      <p class="text-gray-600 mb-2">
         Tujuannya adalah menghadirkan hukum dari sisi yang lebih dekat dengan
         kehidupan, tidak kaku, dan tidak menggurui. Siapa pun — baik praktisi,
         akademisi, mahasiswa, maupun masyarakat umum — bisa menulis. Karena itu,
@@ -52,8 +44,8 @@
           </h2>
           <p class="text-sm text-gray-600 mt-2">
             OLEH
-            <span class="text-green-700 font-semibold">{{ post.author }}</span>
-            • {{ post.date }}
+            <span class="text-green-700 font-semibold">{{ posts.author }}</span>
+            • {{ posts[0].date }}
           </p>
           <p class="text-sm text-gray-800 mt-3">
             {{ post.excerpt }}
