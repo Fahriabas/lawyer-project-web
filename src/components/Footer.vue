@@ -43,18 +43,6 @@
         <a href="/send-article" class="hover:text-white transition-colors"
           >Cara Kirim Artikel</a
         >
-        <!-- <a href="#" class="hover:text-white transition-colors">Disclaimer</a> -->
-        <!-- <a href="#" class="hover:text-white transition-colors">Kontak</a> -->
-        <!-- <a href="#" class="hover:text-white transition-colors">Kerja Sama</a> -->
-        <!-- <a href="#" class="hover:text-white transition-colors"
-          >Pedoman Media Siber</a
-        > -->
-        <!-- <a href="#" class="hover:text-white transition-colors"
-          >Kebijakan Privasi</a
-        > -->
-        <!-- <a href="#" class="hover:text-white transition-colors"
-          >Laporan Transparansi</a
-        > -->
       </nav>
 
       <div class="flex flex-col sm:flex-row items-center gap-4">
