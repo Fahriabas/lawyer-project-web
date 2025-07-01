@@ -74,7 +74,12 @@
         <h3 class="text-sm font-bold text-green-700 mb-4">
           ⚡ Terpopuler Sepekan
         </h3>
-        <div v-for="pop in popularPosts" :key="index" class="mb-4 flex gap-3">
+        <div
+          v-for="pop in popularPosts"
+          :key="pop.id"
+          class="mb-4 flex gap-3 cursor-pointer"
+          @click="$router.push(`/detail/${pop.id}`)"
+        >
           <img :src="pop.thumbnail" class="w-14 h-14 object-cover rounded" />
           <div>
             <p class="text-sm font-semibold text-gray-800 leading-snug">
@@ -103,32 +108,7 @@ export default {
       return this.articles;
     },
     popularPosts() {
-      const popularPosts = [
-        {
-          id: 101,
-          title:
-            "Kualitas Pendidikan Advokat Buruk, Tjoetjoe: Negara Harus Hadir untuk Pembenahan...",
-          thumbnail:
-            "https://www.kai.or.id/wp-content/uploads/2021/01/tjoetjoe-s-hernanto.jpeg",
-          date: "19 Juni 2025",
-        },
-        {
-          id: 102,
-          title:
-            "Diduga Ada Unsur Penipuan, RI Siapkan Gugatan Pembatalan Kontrak Satelit di ICC Singapura...",
-          thumbnail:
-            "https://cdn.antaranews.com/cache/1200x800/2025/06/04/1000434809.jpg",
-          date: "16 Juni 2025",
-        },
-        {
-          id: 103,
-          title: "Rasanya Jadi Perantau Mengurus KTP...",
-          thumbnail:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTHVIbpCvyYYtM1vawuSD3EJDlsbItzF34bw&s",
-          date: "16 Juni 2025",
-        },
-      ];
-      return popularPosts;
+      return this.articles;
     },
   },
 };

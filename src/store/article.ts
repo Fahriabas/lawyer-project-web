@@ -66,8 +66,8 @@ export const useArticleStore = defineStore("article", {
           type: "Esai",
           excerpt:
             "Sepeda mahal ratusan juta memang tidak menjamin kamu finish, tapi setidaknya kamu gagal dengan nyaman dan bermartabat.",
-          views: "1.2M",
-          comments: "56K",
+          views: "1000",
+          comments: "1",
           content: `
                     <p>Di dunia perspedaan, ada satu perdebatan abadi: lebih penting sepeda mahal atau dengkul yang kuat? Perdebatan ini tak pernah ada habisnya. Bak ayam dan telur, mana yang lebih dulu tercipta. Tiap kubu punya argumen yang sama kuatnya. Tiap kubu mengklaim kebenarannya masing-masing.</p>
                     <p>Bagi kubu dengkul, sepeda hanyalah alat. Sehebat apa pun sepedanya, jika dengkul loyo, ya sama saja. Seperti kata pepatah: the engine, not the bike. Yang penting adalah mesinnya, bukan sepedanya. Dengkul yang kuat adalah investasi jangka panjang. Ia tak lekang dimakan zaman. Ia tak butuh perawatan mahal.</p>
@@ -251,6 +251,36 @@ export const useArticleStore = defineStore("article", {
           authorAvatar: "https://source.unsplash.com/random/100x100?teacher", // Placeholder random
           authorBio:
             "Edukasi Modern adalah tim pendidik yang berkomitmen untuk memajukan sistem pembelajaran melalui teknologi.",
+        },
+        {
+          id: "9j0k1l2m-3n4o-5p6q-6r7s-8t9u0v1w2x3y",
+          title:
+            "Kenapa Harus di Medan? Antara pemberantasan dengan pengendalian.",
+          thumbnail: post1Thumbnail, // Ganti sesuai kebutuhan
+          image: post1Thumbnail, // Gambar utama
+          author: "Tony Hasibuan",
+          date: "27 Juni 2025",
+          type: "Esai",
+          excerpt:
+            "Kejahatan tidak bisa dihilangkan dari muka bumi, karenanya kejahatan hanya bisa dikendalikan. Tapi mengapa penindakan harus dilakukan di Medan? Tulisan ini mencoba melihat dari sudut pandang lain.",
+          views: "150K",
+          comments: "2K",
+          content: `
+            <p>Ada sebuah kutipan dari film yang pernah saya tonton. Kurang lebih begini bunyinya: “Kejahatan tidak bisa dihilangkan dari muka bumi, karenanya kejahatan hanya bisa dikendalikan.”</p>
+            <p>Kutipan ini terdengar masuk akal jika dilihat dari realitas hari ini. Penegakan hukum menghadapi banyak keterbatasan, baik dari sisi teknologi, SDM, hingga aturan hukum itu sendiri.</p>
+            <p>Kejahatan ada di mana-mana. Mungkin ketika satu kasus berhasil diungkap dan pelaku ditangkap, pada saat yang sama di tempat lain kejahatan sedang terjadi.</p>
+            <p>Ini adalah sebuah kenyataan yang harus dihadapi, bukan untuk membuat kita pesimis, tapi agar kita memahami kompleksitas kerja penegakan hukum.</p>
+            <p>Lalu, kenapa harus di Medan?</p>
+            <p>Pertanyaan ini tidak serta-merta bisa dijawab dengan pasti. Jika dikaitkan dengan kutipan di atas, jawabannya barangkali hanya bisa dimulai dengan satu kata, yaitu "mungkin".</p>
+            <p>Mungkin di Medan sedang ada kejahatan yang harus segera dikendalikan. Mungkin ada jaringan yang harus diputus. Atau mungkin karena alasan lain yang tidak selalu bisa diungkap ke publik.</p>
+            <p>Tulisan ini tidak bermaksud menjustifikasi atau menyimpulkan, hanya mencoba melihat dari sudut pandang lain.</p>
+            <p>Yang pasti, di tengah berbagai kemungkinan dan keterbatasan, kita tetap harus mendukung penegakan hukum yang adil, proporsional, dan transparan.</p>
+          `,
+          tags: ["Medan", "Penegakan Hukum", "Kriminalitas", "Opini"],
+          authorAvatar:
+            "https://www.gravatar.com/avatar/a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6?s=200&d=mp",
+          authorBio:
+            "Tony Hasibuan adalah seorang praktisi hukum dan pengamat perundang-undangan. Ia fokus pada isu-isu terkait reformasi hukum di Indonesia.",
         },
       ] as Article[],
     };

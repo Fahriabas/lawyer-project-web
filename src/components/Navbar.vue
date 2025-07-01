@@ -35,7 +35,6 @@
 
           <div class="hidden md:flex gap-2">
             <div
-              href="https://wa.me/6285881486316"
               class="w-6 h-6 rounded-full bg-green-500 flex items-center justify-center"
             >
               <img :src="whatsappIcon" alt="WhatsApp" class="w-3.5 h-3.5" />

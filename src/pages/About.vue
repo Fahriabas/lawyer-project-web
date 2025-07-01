@@ -62,15 +62,10 @@
         </div>
 
         <div>
-          <h2 class="font-bold text-lg">WHATSAPP</h2>
+          <h2 class="font-bold text-lg">Telepon</h2>
           <p>
-            0858-8148-6316
-            <a
-              href="https://wa.me/6285881486316"
-              class="text-green-600"
-              target="_blank"
-              >[link]</a
-            >
+            021 50804798
+            <!-- <a class="text-green-600" target="_blank">[link]</a> -->
           </p>
         </div>
       </div>
