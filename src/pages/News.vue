@@ -94,8 +94,6 @@ import { computed } from "vue";
 import { useArticleStore } from "../store/article";
 import { mapState } from "pinia";
 
-// import post1Thumbnail from '../assets/post1.jpeg';
-
 export default {
   computed: {
     ...mapState(useArticleStore, ["articles"]),
